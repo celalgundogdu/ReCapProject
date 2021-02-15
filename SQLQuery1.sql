@@ -4,6 +4,7 @@
 	ColorId int,
 	ModelYear int,
 	DailyPrice decimal,
+    Descriptions nvarchar(25)
 	foreign key (BrandId) references Colors(ColorId),
 	foreign key (ColorId) references Brands(BrandId)
 )
