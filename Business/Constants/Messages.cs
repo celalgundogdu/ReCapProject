@@ -1,6 +1,8 @@
-﻿using Entities.Concrete;
+﻿using Core.Entities.Concrete;
+using Entities.Concrete;
 using System;
 using System.Collections.Generic;
+using System.Runtime.Serialization;
 using System.Text;
 
 namespace Business.Constants
@@ -18,5 +20,12 @@ namespace Business.Constants
         public static string UserAdded = "Kullanıcı eklendi";
         public static string RentalAdded = "Kiralama eklendi";
         public static string CarImageLimitExceeded = "Bir araba için en fazla 5 fotoğraf eklenebilir";
+        public static string UserNotFound = "Kullanıcı bulunamadı";
+        public static string PasswordError = "Şifre hatalı";
+        public static string SuccessfulLogin = "Sisteme giriş yapıldı";
+        public static string UserAlreadyExists = "Kullanıcı zaten mevcut";
+        public static string UserRegistered = "Kullanıcı kaydı yapıldı";
+        public static string AccessTokenCreated = "Access token oluşturuldu";
+        public static string AuthorizationDenied = "Yetkiniz yok";
     }
 }
